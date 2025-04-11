@@ -1,0 +1,27 @@
+@keyframes expandCircle {
+  to {
+    transform: translate(-50%, -50%) scale(50);
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+}
+
+html, body {
+  overflow: auto;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+  width: 100vw;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}

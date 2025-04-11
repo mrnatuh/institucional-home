@@ -11,7 +11,15 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
         />
       </Head>
-      <body>
+      <body style={{
+        margin: 0,
+        padding: 0,
+        WebkitFontSmoothing: "antialiased",
+        minHeight: "100vh",
+        cursor: "default",
+        overflowY: "auto",
+        overflowX: "hidden"
+      }}>
         <Main />
         <NextScript />
       </body>
